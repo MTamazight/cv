@@ -21,14 +21,13 @@ h2{
   text-transform: uppercase;
   border-bottom: 3px solid #3388DD
 }
-  sec-gauche{
-    float: left;
-    font-weight: blod;
+sec-gauche{
+    float:left;
+    font-weight:blod;
     font-size:20px;
          }
-
-  sec-droite{
-    margin-left: 150px;
+sec-droite{
+    margin-left:150px;
     margin-top:37px;
          }
 
@@ -37,7 +36,7 @@ titre{
   font-size:20px;
 }
 #forma-gauche p{
-  margin-bottom: 37px;
+  margin-bottom:37px;
 }
 #exp-gauche p{
   margin-top: 32px;
