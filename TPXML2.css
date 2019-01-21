@@ -3,6 +3,11 @@ page {
   margin: auto;
   front-size: 16px;
   front-family: 'Source sans Pro', Galibri, Tahoma, sans-serif;
+  podding:40px;
+  border:5px solid #3388CC;
+  border-radius:10px;
+  box-shadow:2px 4px 3px black;
+  background-color:#ffffff;
       }
   section{
     margin-bottom: 70px;
@@ -22,13 +27,23 @@ h2{
 
   sec-droite{
     margin-left: 150px;
+    margin-top:37px;
          }
+
 titre{
   front-weight: blod;
   front-size:20px;
+}
+#forma-gauche p{
+  margin-bottom: 37px;
+}
+#exp-gauche p{
+  margin-top: 32px;
 }
   
 strang {front-size:26px;
 }
 
 
+section:hover{
+  color:#00AA00;
