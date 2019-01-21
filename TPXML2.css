@@ -1,0 +1,52 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+   font-size: 350%;
+   font-family: Arial, sans-serif; font-style: italic 
+}
+p {
+  color: black;
+   font-size: 100%;
+
+}
+h2 {
+  color: blue;
+   font-size: 300%;
+     border: 1px solid powderblue;
+     padding: 3px
+}
+p {
+  color: black;
+  font-size: 100%;
+     border: 1px solid powderblue;
+     padding: 3px
+}
+h3 {
+  color: black;
+  font-size: 100%;
+     border: 1px solid powderblue;
+     padding: 3px
+}
+p {
+  color: black;
+  font-size: 100%;
+}
+h4 {
+  color: black;
+  font-size: 100%;
+     border: 1px solid powderblue;
+     padding: 3px
+}
+p {
+  color: black;
+  font-size: 100%;
+}
+
+p {
+  border: 1px solid powderblue;
+  padding: 3px;
+    border: 1px solid powderblue;
+     padding: 3px
+}
