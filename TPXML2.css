@@ -21,7 +21,7 @@ h2{
   text-transform: uppercase;
   border-bottom: 3px solid #3388DD
 }
-sec-gauche{
+/*sec-gauche{
  
     float:left;
      width:25%;
@@ -33,7 +33,13 @@ sec-droite{
     margin-top:37px;
   float:left;
   width:75%;
-         }
+         }*/
+section
+{
+    -webkit-column-count:2; 
+    -moz-column-count: 2; 
+    column-count: 2; 
+}
 
 titre{
   font-weight: blod;
