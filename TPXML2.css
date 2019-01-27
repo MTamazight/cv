@@ -40,6 +40,16 @@ section
     -moz-column-count: 2; 
     column-count: 2; 
 }
+section
+{
+    -webkit-columns: 2 100px;
+    -moz-columns: 2 100px;
+    columns: 2 100px;
+     -webkit-column-gap: 100px;
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+}
+
 
 titre{
   font-weight: blod;
