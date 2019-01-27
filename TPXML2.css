@@ -15,7 +15,7 @@ section{
     margin-bottom: 70px;
     text-align:justify;
          }
-div.section {
+/*div.section {
 	width: 100%; 
 	overflow: hidden;
 }
@@ -28,7 +28,7 @@ div.section p.sec-droite {
 }
 div.section p label {
 	display: block;
-}
+}*/
 
 h2{
   font-size: 28px;
@@ -36,7 +36,7 @@ h2{
   text-transform: uppercase;
   border-bottom: 3px solid #3388DD
 }
-/*sec-gauche{
+sec-gauche{
  
     float:left;
      width:25%;
@@ -44,11 +44,11 @@ h2{
     font-size:20px;
          }
 sec-droite{
-    margin-left:150px;
+    margin-left:50px;
     margin-top:37px;
   float:left;
   width:75%;
-         }*/
+}
 
 
 titre{
