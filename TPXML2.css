@@ -15,6 +15,9 @@ section{
     margin-bottom: 70px;
     text-align:justify;
          }
+section:hover{
+  color:#00AA00;
+}
 div.section {
 	width: 100%; 
 	overflow: hidden;
@@ -27,9 +30,9 @@ div.section p.sec-gauche {
 div.section p.sec-droite {
 	margin-left: 50%;
 }*/
-div.section p label {
+/*div.section p label {
 	display: block;
-}
+}*/
 
 h2{
   font-size: 28px;
@@ -37,15 +40,15 @@ h2{
   text-transform: uppercase;
   border-bottom: 3px solid #3388DD
 }
-div.sec-gauche{
+sec-gauche{
  
     float:left;
      width:25%;
     font-weight:blod;
     font-size:20px;
          }
-div.sec-droite{
-    margin-left:5px;
+sec-droite{
+    margin-left:50px;
     margin-top:37px;
   float:left;
   width:75%;
@@ -63,10 +66,7 @@ titre{
   margin-top: 32px;
 }
   
-strang {font-size:26px;
-}
+strang {font-size:26px;}
 
 
-section:hover{
-  color:#00AA00;
-}
+
