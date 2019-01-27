@@ -15,10 +15,11 @@ section{
     margin-bottom: 70px;
     text-align:justify;
          }
-/*div.section {
+div.section {
 	width: 100%; 
 	overflow: hidden;
 }
+/*
 div.section p.sec-gauche {
 	width: 45%;
 	float: left;
@@ -36,14 +37,14 @@ h2{
   text-transform: uppercase;
   border-bottom: 3px solid #3388DD
 }
-sec-gauche{
+div.sec-gauche{
  
     float:left;
      width:25%;
     font-weight:blod;
     font-size:20px;
          }
-sec-droite{
+div.sec-droite{
     margin-left:50px;
     margin-top:37px;
   float:left;
