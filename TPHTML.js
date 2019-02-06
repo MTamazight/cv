@@ -8,7 +8,7 @@ document.getElementById('progress').value = deplacement;
 });*/
 
 
-window.addEventListener("scroll", function() { 
+/*window.addEventListener("scroll", function() { 
 
 // Calculez le déplacement ici ...
 var deplacement=(window.scrollY+window.innerHeight)*15/document.body.offsetHeight;
@@ -44,3 +44,20 @@ function myScroll() {
         
     }, 10);
 */
+var derniere_position_de_scroll_connue = 0;
+var ticking = false;
+
+function faitQuelquechose(position_scroll) {
+  // faites quelque chose avec la position du scroll
+}
+
+window.addEventListener('scroll', function(e) {
+  derniere_position_de_scroll_connue = window.scrollY;
+  if (!ticking) {
+    window.requestAnimationFrame(function() {
+      faitQuelquechose(derniere_position_de_scroll_connue);
+      ticking = false;
+    });
+  }
+  ticking = true;
+});
