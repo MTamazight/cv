@@ -1,5 +1,5 @@
 
-<script type="text/javascript">
+
 $(document).ready(function() {
                 $('nav a').on('click', function() { // Au clic sur un élément
                         var page = $(this).attr('href'); // Page cible
@@ -8,4 +8,4 @@ $(document).ready(function() {
                         return false;
                 });
         });
-</script>
+
