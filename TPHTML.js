@@ -1,11 +1,11 @@
-/*window.addEventListener("scroll", function() { 
+window.addEventListener("scroll", function() { 
   window.scrollY // Valeur du scroll en pixel
 document.body.offsetHeight // Hauteur totale de la page en pixel
 window.innerHeight // Hauteur de l'écran en pixel
 let deplacement = ((window.scrollY)*100)/(document.body.offsetHeight-window.innerHeight);
   window.scrollTo(50, 100);
 document.getElementById('progress').value = deplacement; 
-});*/
+});
 
 
 /*window.addEventListener("scroll", function() { 
@@ -22,7 +22,7 @@ function myScroll() {
     
     window.scroll(0,progress) ;
 }*/
-$(this).attr("data-value", $(this).attr("data-init"));
+/*$(this).attr("data-value", $(this).attr("data-init"));
          var Len = parseInt($(this).attr("data-length"));
          var Range = parseInt($(this).attr("data-end") - parseInt($(this).attr("data-init")));                                    
          $(this).attr("data-step", Math.ceil(Range / (Len * 100)));
@@ -43,4 +43,4 @@ $(this).attr("data-value", $(this).attr("data-init"));
       });
         
     }, 10);
-
+*/
