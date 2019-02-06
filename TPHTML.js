@@ -43,7 +43,6 @@ function myScroll() {
       });
         
     }, 10);
-*/
 var derniere_position_de_scroll_connue = 0;
 var ticking = false;
 
@@ -60,4 +59,14 @@ window.addEventListener('scroll', function(e) {
     });
   }
   ticking = true;
-});
+});*/
+<script type="text/javascript">
+$(document).ready(function() {
+                $('nav a').on('click', function() { // Au clic sur un élément
+                        var page = $(this).attr('href'); // Page cible
+                        var speed = 750; // Durée de l'animation (en ms)
+                        $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+                        return false;
+                });
+        });
+</script>
